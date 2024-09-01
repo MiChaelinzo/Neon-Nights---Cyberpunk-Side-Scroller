@@ -1,0 +1,2148 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 16142 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/micha/Documents/Neon Nights
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56494
+Successfully changed project path to: C:/Users/micha/Documents/Neon Nights
+C:/Users/micha/Documents/Neon Nights
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [49692] Host "[IP] 192.168.29.1 [Port] 0 [Flags] 2 [Guid] 2941098285 [EditorId] 2941098285 [Version] 1048832 [Id] WindowsEditor(7,CyberWorld) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [49692] Host "[IP] 192.168.29.1 [Port] 0 [Flags] 2 [Guid] 2941098285 [EditorId] 2941098285 [Version] 1048832 [Id] WindowsEditor(7,CyberWorld) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 69.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/micha/Documents/Neon Nights/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     4026 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031551 seconds.
+- Loaded All Assemblies, in  1.332 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2016 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.256 seconds
+Domain Reload Profiling: 4585ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (576ms)
+				TypeCache.ScanAssembly (520ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (3258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3054ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2384ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.182 seconds
+Refreshing native plugins compatible for Editor in 41.88 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.224 seconds
+Domain Reload Profiling: 6402ms
+	BeginReloadAssembly (337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (1560ms)
+		LoadAssemblies (955ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (807ms)
+			TypeCache.Refresh (639ms)
+				TypeCache.ScanAssembly (564ms)
+			ScanForSourceGeneratedMonoScriptInfo (146ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (4227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (140ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (2857ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 16.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (245.9 KB). Loaded Objects now: 4493.
+Memory consumption went from 148.9 MB to 148.7 MB.
+Total: 9.585000 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.311600 ms MarkObjects: 8.424800 ms  DeleteObjects: 0.386000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174988.937960 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb5d237ef3c3b4f0aab9a7af4a6995c') in 0.004299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.402453 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-2.png
+  artifactKey: Guid(e73541926311514458ef0570854d8718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-2.png using Guid(e73541926311514458ef0570854d8718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044cb152ad2b347e144bf7fecf8d2488') in 0.098131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-8.png
+  artifactKey: Guid(1a61a8cdb396931469d3e6fe2ac77625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-8.png using Guid(1a61a8cdb396931469d3e6fe2ac77625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c7537c372bdc9770f97d32e447471a') in 0.032926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-6.png
+  artifactKey: Guid(0ddfe1686e4051a4a881a5ee36cbb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-6.png using Guid(0ddfe1686e4051a4a881a5ee36cbb77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830cef7b6733f3ba3a49329825d2008b') in 0.026456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-12.png
+  artifactKey: Guid(2a6de5f8002d5f3438f7ec95c5768898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-12.png using Guid(2a6de5f8002d5f3438f7ec95c5768898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64073bafcd68ab48ccfa9a5bb9cb301') in 0.026050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-14.png
+  artifactKey: Guid(e78a9bab6db3eb140a04a09c429f0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-14.png using Guid(e78a9bab6db3eb140a04a09c429f0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e244b9fadb57a4eaae0913f080d38e7a') in 0.031005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-16.png
+  artifactKey: Guid(54a7d549068f3d447ab223678f1a83da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-16.png using Guid(54a7d549068f3d447ab223678f1a83da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc61f889e0e1fbcde3cb47f75800dae0') in 0.029121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-17.png
+  artifactKey: Guid(915a9372ea1243e4ea6c71ae57ffe32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-17.png using Guid(915a9372ea1243e4ea6c71ae57ffe32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a4be987cdac353d0139c27e9028bfe') in 0.032761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-21.png
+  artifactKey: Guid(7ee80e73a6703e84ab80a786a1af522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-21.png using Guid(7ee80e73a6703e84ab80a786a1af522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9092c969bfa09d97994aed1f56f437') in 0.027735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-22.png
+  artifactKey: Guid(661b56e5a48015c49b27def2f9f0cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-22.png using Guid(661b56e5a48015c49b27def2f9f0cccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fcf8bef0586a947ae3530cff9445d4') in 0.024142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-24.png
+  artifactKey: Guid(91746808ecc057c45a90a399201e80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-24.png using Guid(91746808ecc057c45a90a399201e80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468f9a47d04ab864b7c50589e8db9b55') in 0.024847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-25.png
+  artifactKey: Guid(47c8e6821b72baa4bbd00ccecb4196e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-25.png using Guid(47c8e6821b72baa4bbd00ccecb4196e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89276534a3033a4feb6beccf0463cf1') in 0.026933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-27.png
+  artifactKey: Guid(077a3f71d7560b546bc4ecbc1e1439e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-27.png using Guid(077a3f71d7560b546bc4ecbc1e1439e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74839f1c545da95d4b0c457299406fa8') in 0.033910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-30.png
+  artifactKey: Guid(265f359c00a1c7e42a06129e875cb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-30.png using Guid(265f359c00a1c7e42a06129e875cb867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f50614dc92699036d4e8667e11a720f') in 0.033630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-32.png
+  artifactKey: Guid(8a5ce2c8d3eb4da4d9d931a956e6efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-32.png using Guid(8a5ce2c8d3eb4da4d9d931a956e6efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f439aafeb070ff3c6ef441e7f96184d9') in 0.028507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-33.png
+  artifactKey: Guid(e701254131932ec4c9d57bbb29eb8288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-33.png using Guid(e701254131932ec4c9d57bbb29eb8288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64976d80ba16a278493701a9652c5429') in 0.027236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-36.png
+  artifactKey: Guid(be099ebd6b8bb7942bbebfb9f0d93ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-36.png using Guid(be099ebd6b8bb7942bbebfb9f0d93ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e94f4955a48929b79fde4498d9828') in 0.025876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-37.png
+  artifactKey: Guid(b7a5e3605b10d0e4b8f155f17a1fc4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-37.png using Guid(b7a5e3605b10d0e4b8f155f17a1fc4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0465ace2e4995b577daee98962176b22') in 0.032136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-39.png
+  artifactKey: Guid(3a49d7ee256cafc449a6124aa938c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-39.png using Guid(3a49d7ee256cafc449a6124aa938c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58f80447e05d698e08c1176391adbbc') in 0.029577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-42.png
+  artifactKey: Guid(c85009fdd876a564b81c70120b2a7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-42.png using Guid(c85009fdd876a564b81c70120b2a7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e74f912b930ff716ccc6adfc11c0597') in 0.027689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-43.png
+  artifactKey: Guid(a8db3a46bf6ff2e4789f9744a70a44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-43.png using Guid(a8db3a46bf6ff2e4789f9744a70a44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4480f52e90643bfed1e4335f2e175e') in 0.031417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-45.png
+  artifactKey: Guid(2b7301432b268a14ca410a2608ddbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-45.png using Guid(2b7301432b268a14ca410a2608ddbaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53984984234f0535a5beaf6f7ba38ea') in 0.038975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-7.png
+  artifactKey: Guid(4ce69e4c26a78e44086e400819cd056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/City Wide/NeonLocations_Exterior_CityWide-7.png using Guid(4ce69e4c26a78e44086e400819cd056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059ac72c226aeeba42dc107410b49fa4') in 0.050041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010677 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-1.png
+  artifactKey: Guid(d74bdcb1e3bafb048884835fc67af9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-1.png using Guid(d74bdcb1e3bafb048884835fc67af9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7c8fe92ea1d6dc73a3fd7d215f24f6') in 0.025305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006860 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-3.png
+  artifactKey: Guid(a0783b8160b86714cb1b03f23d49eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-3.png using Guid(a0783b8160b86714cb1b03f23d49eff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9941bd0f7d5bf631eb16df9d72fabd8') in 0.023828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006947 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-5.png
+  artifactKey: Guid(5a2766184bdc3ce45acde391b129e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-5.png using Guid(5a2766184bdc3ce45acde391b129e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f508eedc2f47b8e150255800962010') in 0.028382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005489 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-7.png
+  artifactKey: Guid(215d451202a2ee643ac2ccdb730f4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-7.png using Guid(215d451202a2ee643ac2ccdb730f4309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f057904f15575b8c896f7761a56e9d4f') in 0.028244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007502 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-9.png
+  artifactKey: Guid(dc4b83ef837de864986528489c5a9476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-9.png using Guid(dc4b83ef837de864986528489c5a9476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d50ae858038ef57f6eec2f3e0cec260') in 0.026888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006841 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-11.png
+  artifactKey: Guid(e5cfebf0a62bc744ea2968435ddee4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-11.png using Guid(e5cfebf0a62bc744ea2968435ddee4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68201e0a292856df3d4257d089e97a22') in 0.029920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007949 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-13.png
+  artifactKey: Guid(36252b9be1267f94fbb56fb4fcdd1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-13.png using Guid(36252b9be1267f94fbb56fb4fcdd1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af04d48ee4e66d1db2ce66c79b7cd892') in 0.027352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007275 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-15.png
+  artifactKey: Guid(d3ac64a052c5b494b9ebd077e1a68c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-15.png using Guid(d3ac64a052c5b494b9ebd077e1a68c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c308c94d15e3471be7d9b7f7dd7f7d72') in 0.026373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009701 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-17.png
+  artifactKey: Guid(e4e38374856b8234eac2ce8aa7c3025c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-17.png using Guid(e4e38374856b8234eac2ce8aa7c3025c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdd82cf61ce78dcb02909ddd35c4240') in 0.032568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010190 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-19.png
+  artifactKey: Guid(1a57a013aa97b984f97ae6f89e576cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-19.png using Guid(1a57a013aa97b984f97ae6f89e576cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4642c8e1a10e33f9410959c3aa702482') in 0.033342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006842 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-21.png
+  artifactKey: Guid(fd4e12f9be4db474fabaf368e97fcf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-21.png using Guid(fd4e12f9be4db474fabaf368e97fcf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5507736282728067c094779282e91589') in 0.055257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-23.png
+  artifactKey: Guid(ace0d50d7ec7ecf49a14b56646db04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-23.png using Guid(ace0d50d7ec7ecf49a14b56646db04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50a7a9163b26806e7118494f0770c5e') in 0.036446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-25.png
+  artifactKey: Guid(92bab0f397cdcbb4da8b7d9c256ea2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-25.png using Guid(92bab0f397cdcbb4da8b7d9c256ea2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28bd0c0b6810fcd24fb34b29d688479') in 0.037691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004088 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-27.png
+  artifactKey: Guid(ce110bb127b45c44ea4d65926b52961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-27.png using Guid(ce110bb127b45c44ea4d65926b52961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d718253b9541aa626a1d917391700d') in 0.035001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005502 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-29.png
+  artifactKey: Guid(d4f5234fceb6cb046a99afe825bda584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-29.png using Guid(d4f5234fceb6cb046a99afe825bda584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1fb58a37b70bbe9d55ca7e3702d1e3') in 0.032709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007748 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-31.png
+  artifactKey: Guid(866042b9d2a0e414f94dd9180820ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-31.png using Guid(866042b9d2a0e414f94dd9180820ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea6c763445ab03160d402e76fb0b751') in 0.029941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007613 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-33.png
+  artifactKey: Guid(870c8df71d8a35948b14f2664e413be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-33.png using Guid(870c8df71d8a35948b14f2664e413be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149068bc48ecd5193954621eff4377cf') in 0.028750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010701 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-35.png
+  artifactKey: Guid(1ec92404b9dd4704bacddfd9508f1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-35.png using Guid(1ec92404b9dd4704bacddfd9508f1f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f951fc6481fb7077025df77b2628386d') in 0.030396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007287 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-37.png
+  artifactKey: Guid(581da9f513e2a7449a14c1245c521dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-37.png using Guid(581da9f513e2a7449a14c1245c521dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8167e0f38b0b060109eff437fc26f197') in 0.030337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009100 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-39.png
+  artifactKey: Guid(9678582da165b584db8602d0ed7e3477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-39.png using Guid(9678582da165b584db8602d0ed7e3477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7c8bbea7b79cc04abecd8b65edfe18') in 0.029280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010913 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-41.png
+  artifactKey: Guid(cfee9e9e95977c84390c5dfc5c76d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-41.png using Guid(cfee9e9e95977c84390c5dfc5c76d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3c65dc6ec2c40bab32226485b66df1') in 0.034631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002576 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-43.png
+  artifactKey: Guid(16f6a8f5f1fffc446a529e460aac4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-43.png using Guid(16f6a8f5f1fffc446a529e460aac4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3895b3bc24b1921478b7e94551fc7d5') in 0.027612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010831 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-45.png
+  artifactKey: Guid(3d9dff457da746247970311d33df279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-45.png using Guid(3d9dff457da746247970311d33df279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dafbf192a1d3ed43f823dc6862c895') in 0.029480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009275 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-47.png
+  artifactKey: Guid(3a0e5a3038e93ba43a6423959b6a78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-47.png using Guid(3a0e5a3038e93ba43a6423959b6a78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42b3b19dff19b8ca7e997761e503684') in 0.037230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-49.png
+  artifactKey: Guid(cdc5fdd80271ef54f8b9e787f545f2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-49.png using Guid(cdc5fdd80271ef54f8b9e787f545f2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c86b8a4beb531370c8aebbcb7ffd5c') in 0.027737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011796 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-51.png
+  artifactKey: Guid(6aef040a3227fcd44a355c175d777d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-51.png using Guid(6aef040a3227fcd44a355c175d777d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4761169cba189b54724bc412b4ecf9') in 0.027485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009001 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-53.png
+  artifactKey: Guid(8b9f267544bb9684e8e737e442a4297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-53.png using Guid(8b9f267544bb9684e8e737e442a4297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0a97caeaa9887bfa4a1b54caca49d3') in 0.029138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009550 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-55.png
+  artifactKey: Guid(c0d39c8d740e5bb45b8c8fecc333b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-55.png using Guid(c0d39c8d740e5bb45b8c8fecc333b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6638f748822c75c723dacb31aff31f9f') in 0.025217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010612 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-57.png
+  artifactKey: Guid(45fe933c510ceb34b99d017061fd4820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-57.png using Guid(45fe933c510ceb34b99d017061fd4820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f366883b85e6f3034b8a95d44058a1') in 0.030049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009761 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-59.png
+  artifactKey: Guid(fee07a46601735a4bb0479568a3a0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-59.png using Guid(fee07a46601735a4bb0479568a3a0ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32d12a9fa1848edc0a0e88059fb6b5d') in 0.034606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008986 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-61.png
+  artifactKey: Guid(3def8f5ba9657e64aa0c00002cfd8274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-61.png using Guid(3def8f5ba9657e64aa0c00002cfd8274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebb36c2df24e843dacc8a6ba15c0624') in 0.032863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007941 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-63.png
+  artifactKey: Guid(b7af83b2d09821546821655acd9e2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-63.png using Guid(b7af83b2d09821546821655acd9e2a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d7a04cb1c274d8539945501663448e') in 0.030205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008753 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-65.png
+  artifactKey: Guid(edf1d606327fa0847bea167598358dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-65.png using Guid(edf1d606327fa0847bea167598358dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaa2fd10723547dafa2009d426def7d') in 0.040372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-67.png
+  artifactKey: Guid(14ba2ab6e33afd44c9588e19dfd00b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-67.png using Guid(14ba2ab6e33afd44c9588e19dfd00b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae89f09382be83599034dd0ad931adaa') in 0.040573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-69.png
+  artifactKey: Guid(aea28b4bb24b46842b3636f778fbde8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-69.png using Guid(aea28b4bb24b46842b3636f778fbde8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3dc466da3b1d24072d2245d7adf57c') in 0.040697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-71.png
+  artifactKey: Guid(f921a18b4dac8da4d93b900c1ae8b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Buildings/NeonLocations_Exterior_Buildings-71.png using Guid(f921a18b4dac8da4d93b900c1ae8b3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50137738017c18516bb45fcadbc218d') in 0.035648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.924664 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-2.png
+  artifactKey: Guid(9f9577a0b25f6344da12666e58f6abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-2.png using Guid(9f9577a0b25f6344da12666e58f6abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4954e648e91c98674243dbf2f180453') in 0.022088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007076 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-4.png
+  artifactKey: Guid(3febd04b231d1394d860bbfae5fbcd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-4.png using Guid(3febd04b231d1394d860bbfae5fbcd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1035a1a5da330cbff7f30773800ee6') in 0.024539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005677 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-6.png
+  artifactKey: Guid(47e387a655a1cec48a800edde6146533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-6.png using Guid(47e387a655a1cec48a800edde6146533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610f2f4b2e45ccba733b3672f9915b0e') in 0.027374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009360 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-8.png
+  artifactKey: Guid(2bf4fac6c93087c488b92adcfd16db6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-8.png using Guid(2bf4fac6c93087c488b92adcfd16db6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442ce95b3664d525914eaaaa6c337adf') in 0.030247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003047 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-10.png
+  artifactKey: Guid(d239cd27473efae43add01d5506bc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-10.png using Guid(d239cd27473efae43add01d5506bc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b6c0a151df92f3521cce049efe371') in 0.030451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007866 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-12.png
+  artifactKey: Guid(0f432da0e91ce504c9e65a6f85ccba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-12.png using Guid(0f432da0e91ce504c9e65a6f85ccba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a0d458ada37b3cbe374a5773b55c17') in 0.027834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005997 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-14.png
+  artifactKey: Guid(5a94b75b5edd7064a96760fa8c42586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-14.png using Guid(5a94b75b5edd7064a96760fa8c42586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a14aaeffebb4983950834514935875') in 0.023613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012385 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-16.png
+  artifactKey: Guid(2cecfb3bce77d2c4cbcefb78b65b254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-16.png using Guid(2cecfb3bce77d2c4cbcefb78b65b254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d75a2923e21a832b2d824d317928cdc') in 0.025770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006697 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-18.png
+  artifactKey: Guid(122a2e8f3b23dc949b9e399eeffa1fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-18.png using Guid(122a2e8f3b23dc949b9e399eeffa1fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39250efe9167f8b96fc5a0d987c88b2c') in 0.030665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007848 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-20.png
+  artifactKey: Guid(4f7b1464f36e9804fa1224b9c8bc005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-20.png using Guid(4f7b1464f36e9804fa1224b9c8bc005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5034cca974ecf0ea528ea56f8a991e2') in 0.026940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007138 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-22.png
+  artifactKey: Guid(08f2636e9c7f2ad4fbd3fcae98976d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-22.png using Guid(08f2636e9c7f2ad4fbd3fcae98976d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479bf63209256d0f563e2697392c6af1') in 0.030339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006131 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-24.png
+  artifactKey: Guid(f85165b694eefa44fa528c9f4509ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-24.png using Guid(f85165b694eefa44fa528c9f4509ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ef56a20d7f5a89ec47a7202b03f96') in 0.026319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010765 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-26.png
+  artifactKey: Guid(d49603edd4e54c34fad806bc86e8961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-26.png using Guid(d49603edd4e54c34fad806bc86e8961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd5faf812233281591efd11aad660ed') in 0.027830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005812 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-28.png
+  artifactKey: Guid(ab506b7f8734ff84ea5b8d0a3e93385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-28.png using Guid(ab506b7f8734ff84ea5b8d0a3e93385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545346f344f010049cb243c7ab9a3943') in 0.026763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008583 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-30.png
+  artifactKey: Guid(8ba27c39849aef14cb531755f66f75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-30.png using Guid(8ba27c39849aef14cb531755f66f75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16ddd19c6b4b4d2ffd6ddf417e5f9ce') in 0.032280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003634 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-32.png
+  artifactKey: Guid(a67481180fd259b4dbbb0af80704ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Harbor/NeonLocations_Exterior_Harbor-32.png using Guid(a67481180fd259b4dbbb0af80704ec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9c43d4a32e2a72330334481530578a') in 0.033455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034799 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-2.png
+  artifactKey: Guid(8370462d310049747b2fb1d96d016141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-2.png using Guid(8370462d310049747b2fb1d96d016141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894fce7582e0e26d845f41767d2fdd1b') in 0.032813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008009 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-4.png
+  artifactKey: Guid(e05e991032dcea943bd16979390b6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-4.png using Guid(e05e991032dcea943bd16979390b6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769c3d9dc19709d9d5bc8685ae5a058c') in 0.032573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006152 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-6.png
+  artifactKey: Guid(f2a4286be69a2ff4c9a211b06c469b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-6.png using Guid(f2a4286be69a2ff4c9a211b06c469b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe6f85dbcc40bf6086cc4f6965d0b1') in 0.037698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-8.png
+  artifactKey: Guid(8bfb96916422cc64ab951274d37c5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-8.png using Guid(8bfb96916422cc64ab951274d37c5621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c1f82e9782bc1c5fbd67f37cc684b6') in 0.032257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009285 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-10.png
+  artifactKey: Guid(4cac32055248f4146a0a816c16c53e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-10.png using Guid(4cac32055248f4146a0a816c16c53e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb0f3d48ce33621bc5db70da0486db') in 0.035785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004698 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-12.png
+  artifactKey: Guid(c6cc2de180113e04c95d1485b78d3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-12.png using Guid(c6cc2de180113e04c95d1485b78d3ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395d5aa6ecc22942ce60bd7aeeb2c126') in 0.030280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009082 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-14.png
+  artifactKey: Guid(4ed3c7c3b7be8a449aab139a3627236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-14.png using Guid(4ed3c7c3b7be8a449aab139a3627236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428fa07ff1bc970785323eea5eb4ac3d') in 0.036315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004821 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-16.png
+  artifactKey: Guid(508e879a0d0e7d2438bbb0920600160f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-16.png using Guid(508e879a0d0e7d2438bbb0920600160f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78a18262a343ece0f497f885137cc98') in 0.036684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002810 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-18.png
+  artifactKey: Guid(52bc571ecfddc664ea9ce5111f2c36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-18.png using Guid(52bc571ecfddc664ea9ce5111f2c36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8eea177d23120a6fa1235a49bcfc47') in 0.034691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005890 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-20.png
+  artifactKey: Guid(f4f6a31721761c04889b10df4caae03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-20.png using Guid(f4f6a31721761c04889b10df4caae03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1512decda1ea94a3fe3d2420ce7e2d') in 0.040110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002262 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-22.png
+  artifactKey: Guid(06f3967a7f543054184029443bd3dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-22.png using Guid(06f3967a7f543054184029443bd3dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1413d61037e7462f2022d8002710ff5a') in 0.036851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004581 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-24.png
+  artifactKey: Guid(da5e086c7e06a814cb0e88384ada7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-24.png using Guid(da5e086c7e06a814cb0e88384ada7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c80753a9542a4400bae83c1068ae8d') in 0.031431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009609 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-26.png
+  artifactKey: Guid(d42db9bd54a997949ae231e72a6e42e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Park/NeonLocations_Exterior_Park-26.png using Guid(d42db9bd54a997949ae231e72a6e42e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5ab5aaf431f44baf76228939c0f0fa') in 0.035927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.338768 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-2.png
+  artifactKey: Guid(c6893a574c0291749a1b3b3bd79b4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-2.png using Guid(c6893a574c0291749a1b3b3bd79b4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90e508f40ff379dbfbb9b5c1fa8f1d6') in 0.024380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009494 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-4.png
+  artifactKey: Guid(09674de50bae89b47bc5d9a7a05c85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-4.png using Guid(09674de50bae89b47bc5d9a7a05c85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fafe78c3720e9026aadeeaf051b455d') in 0.023804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010403 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-6.png
+  artifactKey: Guid(a4c07280b022c064aaded54d3e21b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-6.png using Guid(a4c07280b022c064aaded54d3e21b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fe1ad08f349c9416c150ef22b0e873') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005547 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-8.png
+  artifactKey: Guid(a5522b96724920f4d92a668645e2a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-8.png using Guid(a5522b96724920f4d92a668645e2a547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129b9c9842121cee9856b6a6a15d401e') in 0.033653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003016 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-10.png
+  artifactKey: Guid(d8a3dcdc26f237a4da1a1bef5ba233fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-10.png using Guid(d8a3dcdc26f237a4da1a1bef5ba233fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790a1b44d5b07785bf540933f7656c4d') in 0.034124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004624 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-12.png
+  artifactKey: Guid(796ed49185d5eae4b82ff8313b4d4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-12.png using Guid(796ed49185d5eae4b82ff8313b4d4798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d005dbec6facf36f72e0b45a02f1b') in 0.045892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-14.png
+  artifactKey: Guid(92c26f0661f9f0341bdba20d4b0f4907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-14.png using Guid(92c26f0661f9f0341bdba20d4b0f4907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42afd9024faf079e78410e32fad939a') in 0.028566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002223 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-16.png
+  artifactKey: Guid(5f6e27dc79ba71a4aad209eeb3415120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-16.png using Guid(5f6e27dc79ba71a4aad209eeb3415120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384ff9ff675b4249d05fb44d2808ea87') in 0.029733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007548 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-18.png
+  artifactKey: Guid(0101772cf689c19469362edbcad8539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-18.png using Guid(0101772cf689c19469362edbcad8539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89573956f4b6ccb3032fa39224fc4918') in 0.030622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008335 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-20.png
+  artifactKey: Guid(69bedac93c0e1ef48b5cfe6ad4deb392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-20.png using Guid(69bedac93c0e1ef48b5cfe6ad4deb392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a12f842c1c315719f53ff0f1fc02481') in 0.055193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-22.png
+  artifactKey: Guid(e8790831aac059c42ba3216bbcfef748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-22.png using Guid(e8790831aac059c42ba3216bbcfef748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e21b9aced4eac856b48bbd7a356e6a4') in 0.034696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002368 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-24.png
+  artifactKey: Guid(941f345b2e27e7b4aa51b9535eb50148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-24.png using Guid(941f345b2e27e7b4aa51b9535eb50148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50259d331b414810e90cf88428dcb7a') in 0.036801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001445 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-26.png
+  artifactKey: Guid(82b846c532bf64547ac38aec316cd066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-26.png using Guid(82b846c532bf64547ac38aec316cd066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62250e108d535081221f01816af936a5') in 0.035855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008153 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-28.png
+  artifactKey: Guid(84386ded4e15857409364259ec14d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-28.png using Guid(84386ded4e15857409364259ec14d703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7e4f9dc99beed557ada62708e0b669') in 0.033274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010990 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-30.png
+  artifactKey: Guid(cf633081ce3870d46a912acb9f8b4c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-30.png using Guid(cf633081ce3870d46a912acb9f8b4c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa8f6c53e59b0ebdb22d5eca2c084be') in 0.048339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002379 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-32.png
+  artifactKey: Guid(69300179df9ac974a8eb628a302c7cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-32.png using Guid(69300179df9ac974a8eb628a302c7cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ab1e8d946ac0342188fa899f892210') in 0.032949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009953 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-34.png
+  artifactKey: Guid(b3ffea9a8eb35f0488d7e6ae153c5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-34.png using Guid(b3ffea9a8eb35f0488d7e6ae153c5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf427f62119e89c311b3b109a14e98') in 0.037121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005891 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-36.png
+  artifactKey: Guid(706a44e0e23d4f5458db5535cd86ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-36.png using Guid(706a44e0e23d4f5458db5535cd86ee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405963946648380b57990fbf3c02d26d') in 0.034335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009964 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-38.png
+  artifactKey: Guid(b2bbb9558177b0e42aeee06549e4e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Residential/NeonLocations_Exterior_Residential-38.png using Guid(b2bbb9558177b0e42aeee06549e4e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0e19f133985e1648912555a121bfd1') in 0.036364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.634057 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-2.png
+  artifactKey: Guid(12fcdc731782ec849ad0eb7ea00d3ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-2.png using Guid(12fcdc731782ec849ad0eb7ea00d3ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc263aff9fba59a8cebf09f08b7409b') in 0.028981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003498 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-4.png
+  artifactKey: Guid(a73c1cf8e7f559f47a76bdc3c3f7f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-4.png using Guid(a73c1cf8e7f559f47a76bdc3c3f7f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f60a733d178d0b0b569f074ceac66fe') in 0.023793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010829 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-6.png
+  artifactKey: Guid(52b8e47088bfa124198f80faeb3afb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-6.png using Guid(52b8e47088bfa124198f80faeb3afb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d6ab858c5075680f8a904ac1415fd3') in 0.026693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005733 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-8.png
+  artifactKey: Guid(f8836a0012a77c043aae3bc3952669a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-8.png using Guid(f8836a0012a77c043aae3bc3952669a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff7eacf106ac0600e1270986de8c721') in 0.027846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007422 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-10.png
+  artifactKey: Guid(e7decc317d948d44a98d08848f556d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-10.png using Guid(e7decc317d948d44a98d08848f556d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92df5a7ec412cdb3660a1310c5228312') in 0.026757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007084 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-12.png
+  artifactKey: Guid(56a66870e38770e48999c07c038a24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-12.png using Guid(56a66870e38770e48999c07c038a24da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c8ce7aa250c9a53e529773cc4efbd4') in 0.030320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004493 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-14.png
+  artifactKey: Guid(1e59ccb083c8f25428a4b6b16e406f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-14.png using Guid(1e59ccb083c8f25428a4b6b16e406f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee56073f2ebaec671a13f8bc8a6768') in 0.027518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007702 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-16.png
+  artifactKey: Guid(f88ef9fd5bafcd54eabbbfca0b60e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-16.png using Guid(f88ef9fd5bafcd54eabbbfca0b60e0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8581a7005145d10ce14ecefa9a35098') in 0.026658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011058 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-18.png
+  artifactKey: Guid(83699bd7e90110b4f94d593f15e8177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-18.png using Guid(83699bd7e90110b4f94d593f15e8177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c732338d5d98a00c49968b6c53ed7662') in 0.026899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007036 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-20.png
+  artifactKey: Guid(4015e0ca7448cf94ca550bb7ce766d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-20.png using Guid(4015e0ca7448cf94ca550bb7ce766d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac263e9a5130d0a4f0aeb68e6ca861b3') in 0.031229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005619 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-22.png
+  artifactKey: Guid(db0aee16d9affb84b8fe6fbd0f7164f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-22.png using Guid(db0aee16d9affb84b8fe6fbd0f7164f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbf53ee13a7cc0112fdb5f06818ae54') in 0.029558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011196 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-24.png
+  artifactKey: Guid(6ae4afbf766d55b47b22210763b35431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/Streets/NeonLocations_Exterior_Streets-24.png using Guid(6ae4afbf766d55b47b22210763b35431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b86aa3a1404b51ed8c3834cedfe3dda') in 0.031565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.340765 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-2.png
+  artifactKey: Guid(691a67f8c420a404dad91fba64294bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-2.png using Guid(691a67f8c420a404dad91fba64294bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99673b8b470ffe40631fe8e4e7c4e30b') in 0.028937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006187 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-4.png
+  artifactKey: Guid(fb608f734a45de544bce807f4f937cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-4.png using Guid(fb608f734a45de544bce807f4f937cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dd528d1803579b1134e161a004b73d') in 0.037421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003509 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-6.png
+  artifactKey: Guid(999200282b56981479236a9d1a57061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-6.png using Guid(999200282b56981479236a9d1a57061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdc332238076ebb57296edb7f1d6be7') in 0.033423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006448 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-8.png
+  artifactKey: Guid(9c69a22a35237d64aadcd5f92cece66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-8.png using Guid(9c69a22a35237d64aadcd5f92cece66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b70f5ca91b98c0ed9032c02f69eb57d') in 0.028193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010445 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-10.png
+  artifactKey: Guid(8c36373a8f9023240b4447f2cf8e6940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-10.png using Guid(8c36373a8f9023240b4447f2cf8e6940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b9555c5a6b32feb5c61bf32ddb6b0') in 0.031137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009694 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-12.png
+  artifactKey: Guid(57152281eab00f5408f8ad0e2d01439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-12.png using Guid(57152281eab00f5408f8ad0e2d01439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d22ee016448fcbe358d0623dfac331') in 0.042551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-14.png
+  artifactKey: Guid(0ec90b9bb98f1e6428310cc6c8db8de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-14.png using Guid(0ec90b9bb98f1e6428310cc6c8db8de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2c6a9c08de404c33d87b52ee1da5f7') in 0.034605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001347 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-16.png
+  artifactKey: Guid(972e3003292e2364fb56bebc24408662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-16.png using Guid(972e3003292e2364fb56bebc24408662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec15d53fff6c739ae2ed04b60bf77ef') in 0.035140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004458 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-18.png
+  artifactKey: Guid(8a4b92a66107844449c9891c32eee372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-18.png using Guid(8a4b92a66107844449c9891c32eee372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d72f896c80a765c1c9cbb499d27466a') in 0.031951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008605 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-20.png
+  artifactKey: Guid(a508b92e84adf43408cebdd5cc14db24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-20.png using Guid(a508b92e84adf43408cebdd5cc14db24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9328ee5463256e00020b2e2d33c4fb08') in 0.036127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006627 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-22.png
+  artifactKey: Guid(f0a7abcc9357b094a8def2a4d1321d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-22.png using Guid(f0a7abcc9357b094a8def2a4d1321d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f951b6bca7f8d7bb0d2604fab18278') in 0.029517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008573 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-24.png
+  artifactKey: Guid(16bf78e487091ca46bd7b963edda0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/City Locations/SkyPort/NeonLocations_Exterior_SkyPort-24.png using Guid(16bf78e487091ca46bd7b963edda0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45bf54a587167269646687422a954c3') in 0.037860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.602820 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-2.png
+  artifactKey: Guid(364d273317ca8f746b774ee8017e67f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-2.png using Guid(364d273317ca8f746b774ee8017e67f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9b5c4352c01926772f8a7e0ed58f89') in 0.024849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004112 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-4.png
+  artifactKey: Guid(984fc035881c8ca43ab498950c6dfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-4.png using Guid(984fc035881c8ca43ab498950c6dfba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284f571bef1f89025e21c9ffeac5ccda') in 0.023649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002796 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-6.png
+  artifactKey: Guid(8e3ccb5bd7ed35f44a70622ba7f3ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-6.png using Guid(8e3ccb5bd7ed35f44a70622ba7f3ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dff009a5f5c5925045de9f3854ef43') in 0.028120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002650 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-8.png
+  artifactKey: Guid(48145985ba8ead2418744999c907152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-8.png using Guid(48145985ba8ead2418744999c907152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dfdb9f6c98ea290c4d5eea30250d19') in 0.026499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-10.png
+  artifactKey: Guid(234186bd07d212d46834135da67d1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-10.png using Guid(234186bd07d212d46834135da67d1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb11f5e41265cff1a1cfa1c6a7786c5') in 0.023254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004052 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-12.png
+  artifactKey: Guid(e0f38205def0e5b45915c635bee5f8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-12.png using Guid(e0f38205def0e5b45915c635bee5f8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c6357ac4e959f9415705d017a6c4cb') in 0.024724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002400 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-14.png
+  artifactKey: Guid(6c82f4db234dcc14493d3cf3c0109ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-14.png using Guid(6c82f4db234dcc14493d3cf3c0109ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b8b1193d7991f440f2e60ea810079e') in 0.023271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003188 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-16.png
+  artifactKey: Guid(99f16e98fac6f0f4cbcf14f0333742cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-16.png using Guid(99f16e98fac6f0f4cbcf14f0333742cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f500af25ff1b9bcea7e683f19c79d079') in 0.032307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003221 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-18.png
+  artifactKey: Guid(e1fe8d1771237fd4f82ba707ec614461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-18.png using Guid(e1fe8d1771237fd4f82ba707ec614461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ac882c2644c0dad715c79dc5415387') in 0.026528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001742 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-20.png
+  artifactKey: Guid(4e04452308ed35842a2bc8115e8e7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-20.png using Guid(4e04452308ed35842a2bc8115e8e7fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a23ba1fab9c9c0febc9d5a0a4e6d16') in 0.028443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004389 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-22.png
+  artifactKey: Guid(91c2d2a914ca7fa4bb056c8e1e29524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-22.png using Guid(91c2d2a914ca7fa4bb056c8e1e29524e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef9fd272ed982f187d9e5fd648a3f33') in 0.029979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002351 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-24.png
+  artifactKey: Guid(26769f04527cb4a44b2ca4a7a3dd1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-24.png using Guid(26769f04527cb4a44b2ca4a7a3dd1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ffdaea5dfd3dfc8dbc258f1be299d') in 0.027391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-26.png
+  artifactKey: Guid(2f27ab8aad12c3744bab7a302fe256de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-26.png using Guid(2f27ab8aad12c3744bab7a302fe256de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f0f8249a90457e2c05dd046b641c0') in 0.026574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003353 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-28.png
+  artifactKey: Guid(4b6dabf669fed31458439ca05b1add93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-28.png using Guid(4b6dabf669fed31458439ca05b1add93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d0befbf4888155346623cd8528a13e') in 0.025316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003500 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-30.png
+  artifactKey: Guid(1d84b13bce4e08242af0450b3081b6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-30.png using Guid(1d84b13bce4e08242af0450b3081b6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144a7b48f0aab9b113ef2095390f2b5b') in 0.026194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004621 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-32.png
+  artifactKey: Guid(97cf0659d7f70b649b3cc7ce1f00d03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-32.png using Guid(97cf0659d7f70b649b3cc7ce1f00d03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f3b2351150ee602f6b9f5bd9bc5d33') in 0.025785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005240 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-34.png
+  artifactKey: Guid(73dcf7c169c75b0468ae12d3df350763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-34.png using Guid(73dcf7c169c75b0468ae12d3df350763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d85172ca109008f954a4b5e6baf8f3') in 0.035313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-36.png
+  artifactKey: Guid(2bbf4043960bebd4281cc91c9ec5899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-36.png using Guid(2bbf4043960bebd4281cc91c9ec5899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200ccd5573ae43f7cff100f1c1cb8ff1') in 0.027384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006052 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-38.png
+  artifactKey: Guid(e6a3247b8bcad3a4d88c8aaae1ce63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-38.png using Guid(e6a3247b8bcad3a4d88c8aaae1ce63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1521fd129bc96bb351eafc733d1c28') in 0.030720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004087 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-40.png
+  artifactKey: Guid(88dfa3ae82a9fdd448417220ae7b5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-40.png using Guid(88dfa3ae82a9fdd448417220ae7b5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b1bb89e27765547254f0059e97ff1') in 0.026745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-42.png
+  artifactKey: Guid(7b0e893e98e768f45ab74ab7ce9c5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-42.png using Guid(7b0e893e98e768f45ab74ab7ce9c5640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cdbadb29ee001d0dfd9143126b05a5') in 0.028732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006904 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-44.png
+  artifactKey: Guid(9fa54fe3172adcc42ae2d71356bd6f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-44.png using Guid(9fa54fe3172adcc42ae2d71356bd6f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425e77662a1dc56715fa0b1d0465fcf3') in 0.031414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005659 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-46.png
+  artifactKey: Guid(8e1a4daa8c36d81429a0505b80f7bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-46.png using Guid(8e1a4daa8c36d81429a0505b80f7bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f5bd02a919b42f2a4853563c16a5ad') in 0.027208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008663 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-48.png
+  artifactKey: Guid(f57a8f4580ef93946b03ff52dd92683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-48.png using Guid(f57a8f4580ef93946b03ff52dd92683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429aa4db98ab79f85ef093f89316d7f4') in 0.030187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006280 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-50.png
+  artifactKey: Guid(b4a64923d07fe9f44a47e17e08cc15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-50.png using Guid(b4a64923d07fe9f44a47e17e08cc15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd181e380c92bcf42584c6fa03a01ab5') in 0.048780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-52.png
+  artifactKey: Guid(8880bd9c517233f498216412afbdfe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-52.png using Guid(8880bd9c517233f498216412afbdfe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df701bcc85b2f3002e0a9bc3099ebcc0') in 0.042782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-54.png
+  artifactKey: Guid(22a60053e3f15254ba847ea8d7be30dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-54.png using Guid(22a60053e3f15254ba847ea8d7be30dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56810a23ed49a159f079b8f6c5bdbe5') in 0.033891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001500 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-56.png
+  artifactKey: Guid(675a7e0435f6b204da86dd03b71b42b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-56.png using Guid(675a7e0435f6b204da86dd03b71b42b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3053bb4895fc2aa2e304c913b4cf7de7') in 0.034060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005637 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-58.png
+  artifactKey: Guid(f2a6d4f575df0f541b13cfe3f7b83484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-58.png using Guid(f2a6d4f575df0f541b13cfe3f7b83484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0030f1e49dda462e100892847960aa74') in 0.036345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-60.png
+  artifactKey: Guid(cdf94514f6e30f141b8785fa3dd24868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-60.png using Guid(cdf94514f6e30f141b8785fa3dd24868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717a7bc748951fb0e664c66abbaa58f5') in 0.031712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003752 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-62.png
+  artifactKey: Guid(a0c9fb8a835438045a88fd08b5a4d1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-62.png using Guid(a0c9fb8a835438045a88fd08b5a4d1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720025751524520cedce87680fc389c1') in 0.034794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004111 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-64.png
+  artifactKey: Guid(ec1e63843cc08e747973e60fb4374fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-64.png using Guid(ec1e63843cc08e747973e60fb4374fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05c8357810e292ec2f619ef02f51896') in 0.038712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-66.png
+  artifactKey: Guid(e2bcc8d07da60f44490ce95e7b98ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-66.png using Guid(e2bcc8d07da60f44490ce95e7b98ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245a8f6bdf12b74480be8e1829d8d3a9') in 0.031849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-68.png
+  artifactKey: Guid(7180d3c5a73cd1c44b40a83a9e34ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-68.png using Guid(7180d3c5a73cd1c44b40a83a9e34ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabc1f6980ffb54d17ec1970cb65078') in 0.033547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004983 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-70.png
+  artifactKey: Guid(8dab05df60213774f96ba97b5ba75b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/Commerce/NeonLocations_Interior_Commerce-70.png using Guid(8dab05df60213774f96ba97b5ba75b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4980c15d6bb1b3cdd243718cc53abe2d') in 0.033877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.087669 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-2.png
+  artifactKey: Guid(70e0486aa681c444ab1b9ffa6d7301d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-2.png using Guid(70e0486aa681c444ab1b9ffa6d7301d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafc8930a099dc6533941e8c833954ae') in 0.032130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008564 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-4.png
+  artifactKey: Guid(36145acbbc51071458d90df0810ee493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-4.png using Guid(36145acbbc51071458d90df0810ee493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc7886a4cde1d3a1150fab8d6b9a3e2') in 0.037345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004343 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-6.png
+  artifactKey: Guid(382099d352b39a44b854a1ec936ebf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-6.png using Guid(382099d352b39a44b854a1ec936ebf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f43398d17dfde65a6df2f69ffa675b') in 0.030165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009920 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-8.png
+  artifactKey: Guid(be7c2be28a813304d8723e121d1cfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-8.png using Guid(be7c2be28a813304d8723e121d1cfa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc633b5db28437a28a53bb3e94d55a4b') in 0.031385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009744 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-10.png
+  artifactKey: Guid(1b1436361e144d04ab86ffda45374767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-10.png using Guid(1b1436361e144d04ab86ffda45374767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ba0d23b41c1c1da524802decbd5d7') in 0.028075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010338 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-12.png
+  artifactKey: Guid(c06b7f6bb9f9c5f42861cd7c722f57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-12.png using Guid(c06b7f6bb9f9c5f42861cd7c722f57a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6165b8bb4c9a985d5e687804119c096') in 0.028584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008207 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-14.png
+  artifactKey: Guid(af97b2b6f047012429611922d79d3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-14.png using Guid(af97b2b6f047012429611922d79d3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf4d3bd3dd1f159fe350d35151415d') in 0.026748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013238 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-16.png
+  artifactKey: Guid(a59e86a52e9bc0d4898ec0c2d79922d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-16.png using Guid(a59e86a52e9bc0d4898ec0c2d79922d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd40cb64193411ae9d3e530f214d132') in 0.028223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012882 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-18.png
+  artifactKey: Guid(14f5ad26b87d7e549a030304d55452b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-18.png using Guid(14f5ad26b87d7e549a030304d55452b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6849da048417fbfdc828f4b66f233a') in 0.030339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008733 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-20.png
+  artifactKey: Guid(3d4077b15074c6f46b5a19488bcff608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-20.png using Guid(3d4077b15074c6f46b5a19488bcff608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d091c97631a156faa52f1b08a9704a3') in 0.028668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009383 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-22.png
+  artifactKey: Guid(43c998b7244e96347bcdc5bcca0c0eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-22.png using Guid(43c998b7244e96347bcdc5bcca0c0eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b4378551ead9389d8ccf7a2dd5d7fc') in 0.029183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010662 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-24.png
+  artifactKey: Guid(7c3113882c4306242bcd8b460a248fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-24.png using Guid(7c3113882c4306242bcd8b460a248fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefde915cbaf76bbb656c799f56cf2b3') in 0.029913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007565 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-26.png
+  artifactKey: Guid(52109666903a0eb49abadeec65458f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-26.png using Guid(52109666903a0eb49abadeec65458f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e5c17c423cd2b652d380d3bbf81825') in 0.036895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006395 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-28.png
+  artifactKey: Guid(7abf4baff92162a42a99db6ca6628f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-28.png using Guid(7abf4baff92162a42a99db6ca6628f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323117191174b8577675c13ef26e66f') in 0.029409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009273 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-30.png
+  artifactKey: Guid(691a85a6582b0184b9e4a958054cf6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-30.png using Guid(691a85a6582b0184b9e4a958054cf6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5c599a741f844eb32f9157479c075e') in 0.032362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007341 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-32.png
+  artifactKey: Guid(977330c168161b34787434dbacf66ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-32.png using Guid(977330c168161b34787434dbacf66ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f63d37e22ff066d1303115433de4d0c') in 0.034865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008191 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-34.png
+  artifactKey: Guid(0b03f05a4615f5f409e0cfa20e4e5d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-34.png using Guid(0b03f05a4615f5f409e0cfa20e4e5d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db594030fcdff566a0f2c0e42b90910e') in 0.030576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009215 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-36.png
+  artifactKey: Guid(0ba84918956500e4590b05328875d87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-36.png using Guid(0ba84918956500e4590b05328875d87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a50391ca6bbf5c0d00ab4823efc647') in 0.028801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008881 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-38.png
+  artifactKey: Guid(66accf7979ac866428cc5785300cea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-38.png using Guid(66accf7979ac866428cc5785300cea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20c841e4b64df3afc0b6755252b2c90') in 0.031927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008966 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-40.png
+  artifactKey: Guid(269d782dcb499cf41a96cb6b443f6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-40.png using Guid(269d782dcb499cf41a96cb6b443f6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0b40df27baef15887c12a23337f85') in 0.031776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015653 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-42.png
+  artifactKey: Guid(f3ebbb075f03c284dbf52986e3db3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-42.png using Guid(f3ebbb075f03c284dbf52986e3db3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57147d5c8e54f2ebd15bd7a4de870918') in 0.034852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010304 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-44.png
+  artifactKey: Guid(9256d8c9cd21a9a42b79ce7e2c958a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-44.png using Guid(9256d8c9cd21a9a42b79ce7e2c958a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8606195064b6d1892ef2513bc343c016') in 0.033266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007480 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-46.png
+  artifactKey: Guid(24b542a6786cc80489d3be0737493df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-46.png using Guid(24b542a6786cc80489d3be0737493df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed6a48c372946ddcc3022f28cb17734') in 0.030470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009531 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-48.png
+  artifactKey: Guid(2dc907dcf2647604ba62e657131d57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-48.png using Guid(2dc907dcf2647604ba62e657131d57c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459bedb3b92b8cc8263e7c9f54afa80a') in 0.029294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008696 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-50.png
+  artifactKey: Guid(70dd12da3975db040a60f394a0e0317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-50.png using Guid(70dd12da3975db040a60f394a0e0317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b6364920e8c40470a7979bcfaa71f3') in 0.026118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012314 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-52.png
+  artifactKey: Guid(26ef179737ea1ac42ae9da5fe63b3401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/OficialBuilding/NeonLocations_Interior_OficialBuilding-52.png using Guid(26ef179737ea1ac42ae9da5fe63b3401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320cc01e34e26699407698a0897bd86') in 0.031094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.122494 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-2.png
+  artifactKey: Guid(64e11d33a22438b48847060530a066c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-2.png using Guid(64e11d33a22438b48847060530a066c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cb42f68f2196982ba901a9fa466958') in 0.025346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008957 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-4.png
+  artifactKey: Guid(757b402276d2ee846a64effc22537798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-4.png using Guid(757b402276d2ee846a64effc22537798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1c314436cc24be86628b3ead2c45a8') in 0.032207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006884 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-6.png
+  artifactKey: Guid(e455f7acf7cbce342af853e6b5dc9f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-6.png using Guid(e455f7acf7cbce342af853e6b5dc9f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca0fdf681d6e6398024441b721ea9b7') in 0.045113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-8.png
+  artifactKey: Guid(f51058b6e5296a84a8aa20cba0576f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-8.png using Guid(f51058b6e5296a84a8aa20cba0576f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056521591f508efd32ad9ea264521eef') in 0.032667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002860 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-10.png
+  artifactKey: Guid(c7bfb8765c2ed6a4ab43c4ae5a3f287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-10.png using Guid(c7bfb8765c2ed6a4ab43c4ae5a3f287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa2c29471989c849d069df310c8a617') in 0.035886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005007 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-12.png
+  artifactKey: Guid(73afc32fd7b4b1144a0279f5ebcdd22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-12.png using Guid(73afc32fd7b4b1144a0279f5ebcdd22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391910aff4900bc253b36b6dd79a2a53') in 0.031803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005076 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-14.png
+  artifactKey: Guid(1713cd446ddb3904a93bd2209dfb59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-14.png using Guid(1713cd446ddb3904a93bd2209dfb59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646acc3091378f89305ce63a7b3d93e9') in 0.032548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005925 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-16.png
+  artifactKey: Guid(3f3ba5b7ac892714e946323797c756e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-16.png using Guid(3f3ba5b7ac892714e946323797c756e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065957db8bc6e4d963731418a5048165') in 0.031276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006537 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-18.png
+  artifactKey: Guid(7572999aebcdfe44ead5ed95d882a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-18.png using Guid(7572999aebcdfe44ead5ed95d882a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9e8d97ace93a571cee0f2fb52830b0') in 0.028573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007960 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-20.png
+  artifactKey: Guid(411018c8d6e91ee4fb2ddd4cb2c52db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-20.png using Guid(411018c8d6e91ee4fb2ddd4cb2c52db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a8f8efb08ebb2fc4c3209d0d97a75d') in 0.030526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008113 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-22.png
+  artifactKey: Guid(1f44d23adbe440b43afc7abf8f136511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-22.png using Guid(1f44d23adbe440b43afc7abf8f136511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a1e8bcd86c04bbcc746979dc479005') in 0.027152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009913 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-24.png
+  artifactKey: Guid(0677bee06c5d9f448930521a9ea78741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-24.png using Guid(0677bee06c5d9f448930521a9ea78741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c361625342ec2a65115b5fad390955') in 0.033068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003534 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-26.png
+  artifactKey: Guid(8f58a040ed86e05499b740c165cb773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-26.png using Guid(8f58a040ed86e05499b740c165cb773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6937156bcfc4e0dc77aff02874a6a9c') in 0.031793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003391 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-28.png
+  artifactKey: Guid(7260204c1a593b64b8818516284f2f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-28.png using Guid(7260204c1a593b64b8818516284f2f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf994a220698db584e9714d315bcf8da') in 0.030552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010332 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-30.png
+  artifactKey: Guid(2018d1c93d6b8d742954119fe4c41bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-30.png using Guid(2018d1c93d6b8d742954119fe4c41bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d717022a66c63c6a15a7de07b3d8d77') in 0.030428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007307 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-32.png
+  artifactKey: Guid(c31a818eb0b20724bbc8ddb59e55d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-32.png using Guid(c31a818eb0b20724bbc8ddb59e55d990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4487fbc9765729d788c5c4880c304eaf') in 0.031349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009012 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-34.png
+  artifactKey: Guid(3a616ece37bb5bb49aad49a750c1aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-34.png using Guid(3a616ece37bb5bb49aad49a750c1aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6832655dc15549049554564708ce4cc3') in 0.032416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006430 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-36.png
+  artifactKey: Guid(4f5e0414881c5fd4ab5a0047e0df18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-36.png using Guid(4f5e0414881c5fd4ab5a0047e0df18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def8087f90d351ff5f18ed281dc92125') in 0.032523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006842 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-38.png
+  artifactKey: Guid(e73aa6a6d32d56646b4694941103267a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Interior Buildings/SubUrban/NeonLocations_Interior_Suburban-38.png using Guid(e73aa6a6d32d56646b4694941103267a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985ee687b51bf1b22290f51adf314fdd') in 0.033788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.499626 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-2.png
+  artifactKey: Guid(973a9ae4a06bf484a9dad0ca359d6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-2.png using Guid(973a9ae4a06bf484a9dad0ca359d6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ae1d599cdb8a7283e250ca26d3068b') in 0.022584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006527 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-4.png
+  artifactKey: Guid(179e78c420021a345bd2082df20aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-4.png using Guid(179e78c420021a345bd2082df20aa0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083644d173e95656cdfd8a519e3b5101') in 0.026071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004945 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-6.png
+  artifactKey: Guid(b6eb1426574e1414fb21d31bd0e7354d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-6.png using Guid(b6eb1426574e1414fb21d31bd0e7354d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4076d9fe96e8ffda42e50c8706a344c') in 0.116417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-8.png
+  artifactKey: Guid(c1b6c0b1d2e0a6e4daded6d93c9304e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-8.png using Guid(c1b6c0b1d2e0a6e4daded6d93c9304e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eddfb63f29b871b92c95a4be7c75961') in 0.064634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-13.png
+  artifactKey: Guid(ba08b6b14bac485408e5b7dde2e5bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-13.png using Guid(ba08b6b14bac485408e5b7dde2e5bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29ececf9cae72b0a20196b4061eae72') in 0.036495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-15.png
+  artifactKey: Guid(c28c6c2a5be6c0d4e9a1ee6840331a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-15.png using Guid(c28c6c2a5be6c0d4e9a1ee6840331a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b1e507de6adf5c1a1c11a66623d353') in 0.038789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002485 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-9.png
+  artifactKey: Guid(fa1f466685d4fd54b839d4e473dd313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-9.png using Guid(fa1f466685d4fd54b839d4e473dd313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418f031ee2369078aa9d282a439a8a6a') in 0.046430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-10.png
+  artifactKey: Guid(16f32bca1502bdd488575cb3ef47046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-10.png using Guid(16f32bca1502bdd488575cb3ef47046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa2ec794085f5a56bd2bbec34ac011f') in 0.035418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-23.png
+  artifactKey: Guid(aa38ee315060f9f47a6bea8da9c15263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-23.png using Guid(aa38ee315060f9f47a6bea8da9c15263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcfc8a9cf07c375d41ad2abd72b9015') in 0.038031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-19.png
+  artifactKey: Guid(01610ec8dce32ef49bfe8cab60a68aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-19.png using Guid(01610ec8dce32ef49bfe8cab60a68aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72f7788a63f9561d5abceadef21cd84') in 0.041248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-11.png
+  artifactKey: Guid(dd2af203225658d46ab6c56832d86468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Corridor/NeonLocations_Interior_Corridor-11.png using Guid(dd2af203225658d46ab6c56832d86468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f189ebc13ec737ef46a7a1997e289f65') in 0.042975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.783918 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-2.png
+  artifactKey: Guid(c9213a7087ecf3246939422a71430414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-2.png using Guid(c9213a7087ecf3246939422a71430414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fa843b91b252e2f4caaa9ad453237c') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007730 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-4.png
+  artifactKey: Guid(d88f3adc2e02ecc4d8475e30ab7f9396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-4.png using Guid(d88f3adc2e02ecc4d8475e30ab7f9396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3afb23a3702876d1ea64d7e81f772') in 0.024633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006254 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-6.png
+  artifactKey: Guid(7909793393d43414a9a85fcf0bce32a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-6.png using Guid(7909793393d43414a9a85fcf0bce32a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa7d36ecb3c070c29c0987e43f21395') in 0.023733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006917 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-8.png
+  artifactKey: Guid(9dc0b396d3cec2347bb5cf6d42025143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-8.png using Guid(9dc0b396d3cec2347bb5cf6d42025143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad417ec3d30bdb702dd76ccaf5e0a80') in 0.033430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003439 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-10.png
+  artifactKey: Guid(ed3dd1b8024e0d74b99af5d64335ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-10.png using Guid(ed3dd1b8024e0d74b99af5d64335ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be31bc4e7aa7069780fec3ef1abd6de8') in 0.036292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002914 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-12.png
+  artifactKey: Guid(be6f68fadfbabb14ba161c8eea38677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-12.png using Guid(be6f68fadfbabb14ba161c8eea38677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f6231f2a3ef538337a092a9609b0a5') in 0.060092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-14.png
+  artifactKey: Guid(3fa7bcd4b2a14164b93e7a68a7a978fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-14.png using Guid(3fa7bcd4b2a14164b93e7a68a7a978fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aff209a3d7b3c06dd60472109744084') in 0.028098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-16.png
+  artifactKey: Guid(eb73051e70839374aa43d381dcd239b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-16.png using Guid(eb73051e70839374aa43d381dcd239b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e5d5d40c3586eaf645841cfecdb088') in 0.030210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-18.png
+  artifactKey: Guid(b6c114c544ed82d4abd9d72f6a3cb6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-18.png using Guid(b6c114c544ed82d4abd9d72f6a3cb6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f47e98128f41c538c08c00f410e5e70') in 0.029515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004066 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-20.png
+  artifactKey: Guid(1e62faeb6361d1d48b34b2f43140f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-20.png using Guid(1e62faeb6361d1d48b34b2f43140f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f98678efac811e68b74f53e0f76255') in 0.030012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005692 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-22.png
+  artifactKey: Guid(c8dfae7bfb10bc3409244a77ad14a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-22.png using Guid(c8dfae7bfb10bc3409244a77ad14a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9201bc7631e260cd08c79eff770953') in 0.034004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005952 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-24.png
+  artifactKey: Guid(09ad89342392b8740a15cc7f78dffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-24.png using Guid(09ad89342392b8740a15cc7f78dffae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80d9593160625934e1db9fbfc0d8ec') in 0.029285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007961 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-26.png
+  artifactKey: Guid(a729e59e0baf1224ca8df2aa670049d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-26.png using Guid(a729e59e0baf1224ca8df2aa670049d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f11faa05cf0f5bc4882349e91449bf') in 0.034769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006836 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-28.png
+  artifactKey: Guid(0d3fe08406c6681459d445b8c6d7d5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-28.png using Guid(0d3fe08406c6681459d445b8c6d7d5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd5a75a038a81c56b3c38fe65a9e6c2') in 0.033149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007980 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-30.png
+  artifactKey: Guid(c1a9017c34819be40a8d8bef92c3737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-30.png using Guid(c1a9017c34819be40a8d8bef92c3737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37ca90332d68c1be7cd0df2a636a71') in 0.033631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005481 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-32.png
+  artifactKey: Guid(ba2be32246018a545a6c424975da6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-32.png using Guid(ba2be32246018a545a6c424975da6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432ffaebc93ed10f6f650827f689e7ac') in 0.033640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005405 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-34.png
+  artifactKey: Guid(8e7e97c64d2c4124c82f0ae68c200357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Rooms/NeonLocations_Interior_Rooms-34.png using Guid(8e7e97c64d2c4124c82f0ae68c200357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa02d20b5c4b73cf4b44544bb05004d8') in 0.033037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.062294 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-2.png
+  artifactKey: Guid(1d58c5c236e46dc41a7478debb356d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-2.png using Guid(1d58c5c236e46dc41a7478debb356d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e30c32460d2e67bb9d0ea52c18a9d2e') in 0.034482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004929 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-4.png
+  artifactKey: Guid(579109472d2af0c4d8bbc5b6e5f45c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-4.png using Guid(579109472d2af0c4d8bbc5b6e5f45c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4072af87b3ac874639a83ecc80ba5e') in 0.031187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007979 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-6.png
+  artifactKey: Guid(d74111addd378d445ad86936cc796b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-6.png using Guid(d74111addd378d445ad86936cc796b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e842eab94799866f0de084f663cb144') in 0.035737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005094 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-8.png
+  artifactKey: Guid(bf20f5a47e8deb041bd601f62b914851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-8.png using Guid(bf20f5a47e8deb041bd601f62b914851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc596f082c20fe10afef4eab5628bff') in 0.033602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020752 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-10.png
+  artifactKey: Guid(627da05bc6b97f0429e080f4f5e0a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-10.png using Guid(627da05bc6b97f0429e080f4f5e0a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51bb3005c80f98b4f6d9d57470ae31a') in 0.030744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008951 seconds.
+  path: Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-12.png
+  artifactKey: Guid(25abd7fe4b4edec45b98b69e14ea332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_DLNK/2D Elements/Neon/Locations/Underground/Sewers/NeonLocations_Interior_Sewers-12.png using Guid(25abd7fe4b4edec45b98b69e14ea332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c262207b65512f5528fb00522095d2ba') in 0.037427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
